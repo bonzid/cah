@@ -1,0 +1,6 @@
+(?:aujourd'hui|c'est-à-dire|peu à peu|de temps en temps|en quelque sorte|en fait|par exemple|à peu près|tout à coup|dès que|au fur et à mesure|à partir de|avant que|de plus|en général|dans le cadre de|à la place de|à l'heure|à la fin|à la suite|au début|au lieu de|au milieu|au moins|au maximum|au minimum|au total|autant que|dans le cas|dans l'ensemble|dans l'espoir|dans l'optique|dans le fond|dans le sens|en bas|en haut|dans l'idée|en ce moment|en général|en revanche|en somme|dans l'ensemble)|l’|d’|jusqu’|C’|c’|qu’|n’|Qu’|
+\d{1,2}[-/]\d{1,2}[-/]\d{2,4}| # dates
+\d+(?:[,.]\d+)?| # nombres (à virgule)
+\w+(?=-\b(?:t|je|tu|il|elle|nous|vous|même|ci|là|lui|leur|le|la|moi)\b)|
+[\w-]+'?| 
+\S #caractère isolé qui n'est pas un espace
