@@ -9,7 +9,7 @@ Ce projet implémente une **Classification Ascendante Hiérarchique (CAH)** pour
 ## Fonctionnalités principales
 
 - Tokenisation des textes
-- Scraping de pages Wikipédia
+- Scraping de pages Wikisource
 - Vecteur TF-IDF
 - Calcul de similarité cosinus
 - Classification ascendante hiérarchique (CAH)
