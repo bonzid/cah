@@ -19,7 +19,7 @@ Ce projet implémente une **Classification Ascendante Hiérarchique (CAH)** pour
 
 - CAH.py : implémentation de la CAH
 - tokenizer.py : tokenisation des textes
-- ressources/ : dichiers stopwords.txt et grammar.txt pour le traitement des textes
+- ressources/ : fichiers stopwords.txt et grammar.txt pour le traitement des textes
 - texts/ : dossier où les textes extraits des pages web seront enregistrés
 - main.py : Point d'entrée du programme
 
